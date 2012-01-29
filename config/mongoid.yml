@@ -11,11 +11,7 @@ test:
 
 # set these environment variables on your prod server
 production:
- host: ds029807.mongolab.com
- port: 29807
- username: railsmine
- password: railsmine123
- database: railsmine
+  uri: <%= ENV['MONGOLAB_URI'] %>
  # slaves:
  #   - host: slave1.local
  #     port: 27018
