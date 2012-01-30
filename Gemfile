@@ -10,7 +10,6 @@ gem 'mongoid'
 gem 'bson_ext'
 gem 'mongrel', '>= 1.2.0.pre2'
 
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -33,4 +32,12 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+end
+
+group :development, :test do
+  gem 'mysql'
+end
+group :production do
+  gem 'pg'
+  gem 'thin'
 end

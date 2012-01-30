@@ -1,9 +1,9 @@
 development:
  host: ds029807.mongolab.com
  port: 29807
- username: railsmine
- password: railsmine123
- database: railsmine
+ username: railsbay
+ password: railsbay123
+ database: railsbay
 
 test:
  host: localhost
