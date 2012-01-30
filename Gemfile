@@ -19,6 +19,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'heroku'
+gem 'jammit'
 
 # Use unicorn as the web server
 # gem 'unicorn'
